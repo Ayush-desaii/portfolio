@@ -1,9 +1,12 @@
 import React from "react";
+import SectionTitle from "../../components/SectionTitle";
 
 function about() {
     return (
-        <div></div>
+        <div>
+            <SectionTitle title="About" />
+        </div>
     )
 }
 
-export default about;
+export default about
